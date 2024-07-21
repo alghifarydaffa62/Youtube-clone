@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #0f0f0f;
+}
+.logo img {
+    width: 100px;
+    height: 40px;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#search {
+    border-radius: 30px;
+    width: 30vw;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.mic {
+    width: 32px;
+    height: 32px;
+    background-color: #272727;
+}
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile h4 {
+    color: white;
+    width: 32px;
+    height: 32px;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+}
