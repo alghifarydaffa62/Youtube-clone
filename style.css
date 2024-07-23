@@ -13,7 +13,8 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 10px 20px;
+    margin: 15px 20px 22px;
+    cursor: pointer;
 }
 #search {
     border-radius: 30px;
@@ -68,9 +69,30 @@ nav {
 }
 .genre {
     display: flex;
-    gap: 30px;
-    margin-bottom: 3vh;
+    gap: 12px;
+    margin-bottom: 4vh;
 }
+.genre h5 {
+    box-sizing: border-box;
+    background-color: #282828;
+    padding: 7px 8px;
+    border-radius: 5px;
+    font-size: 12px;
+    cursor: pointer;
+}
+.col1 {
+    margin-bottom: 50px;
+}
+.you {
+    margin-bottom: 50px;
+}
+.home, .shorts, .subscription {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 20px;
+}
+
 .layer1, .layer2, .layer3, .layer4 {
     display: flex;
     gap: 10px;
@@ -80,11 +102,27 @@ nav {
     width: 20vw;
     height: 25vh;
     border-radius: 10px;
+    cursor: pointer;
+}
+.thumbnail {
+    position: relative;
+}
+.capt {
+    width: 100%;
+    text-align: right;
+}
+.thumbnail figcaption {
+    position: absolute;
+    bottom: 0;
+    margin: 5px 5px;
+    color: white;
+
 }
 .judul {
     display: flex;
     gap: 12px;
     margin-top: 10px;
+    cursor: pointer;
 }
 .judul img {
     width: 30px;
