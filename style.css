@@ -98,6 +98,7 @@ nav {
     gap: 1rem;
     margin-bottom: 4vh;
     width: max-content;
+    position: sticky;
 }
 .genre h5 {
     box-sizing: border-box;
