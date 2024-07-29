@@ -17,7 +17,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 15px 20px 5px;
+    margin: 5px 20px 15px;
 }
 #search {
     border-radius: 30px;
@@ -79,13 +79,7 @@ nav {
 .Home::-webkit-scrollbar {
     display: none;
 }
-/* .horizontal-scroll {
-    width: 100%;
-    overflow-x: scroll;
-}
-.horizontal-scroll::-webkit-scrollbar {
-    display: none;
-} */
+
 .sidebar {
     overflow-y: auto;
     margin-bottom: 10vh;
@@ -93,20 +87,36 @@ nav {
 .sidebar::-webkit-scrollbar {
     display: none;
 }
-.genre {
+.icon {
     display: flex;
-    gap: 1rem;
-    margin-bottom: 4vh;
-    width: max-content;
-    position: sticky;
+    align-items: center;
+    justify-content: center;
 }
-.genre h5 {
+.icon h6 {
     box-sizing: border-box;
-    background-color: #282828;
-    padding: 7px 8px;
-    border-radius: 5px;
-    font-size: 12px;
+    transition: 0.2s;
     cursor: pointer;
+    padding: 10px 10px;
+    border-radius: 30px;
+}
+.icon img {
+    box-sizing: border-box;
+    transition: 0.2s;
+    cursor: pointer;
+    padding: 5px 5px;
+    border-radius: 30px;
+}
+.icon h6:hover {
+    background-color: #282828;
+}
+.icon img:hover {
+    background-color: #282828;
+}
+.latest {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 40px;
+    margin-bottom: 2vh;
 }
 .side {
     display: flex;
@@ -120,17 +130,18 @@ nav {
     width: 130px;
     height: 20px;
     cursor: pointer;
-    text-decoration: none;
-    font-size: 11px;
-    background: none;
 }
 .side img {
     width: 20px;
     height: 20px;
-    border-radius: 27px;
 }
 .col1, .you, .subs {
     margin-bottom: 10px;
+}
+.side a, .shorts-title a {
+    text-decoration: none;
+    font-size: 11px;
+    background: none;
 }
 .line {
     width: 100%;
@@ -160,7 +171,7 @@ nav {
     flex-wrap: wrap;
     gap: 1rem;
     row-gap: 2rem;
-    margin-bottom: 15vh;
+    margin-bottom: 10vh;
 }
 .channel img {
     width: 20vw;
@@ -207,4 +218,38 @@ nav {
 }
 .info p {
     color: #a1a1a1;
+}
+.shorts {
+    margin-bottom: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -14px;
+    gap: 1rem;
+
+}
+.short-caption {
+    margin: 5px 5px;
+}
+.short-caption p {
+    font-size: 12px;
+    margin-top: 6px;
+}
+.shorts-thumbnail img {
+    width: 13vw;
+    height: 49vh;
+    border-radius: 10px;
+}
+.shorts-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 40px;
+    margin-bottom: 3vh;
+}
+.logo-shorts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
 }
